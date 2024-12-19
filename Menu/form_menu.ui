@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frm_MainWindow</class>
+ <widget class="QMainWindow" name="Frm_MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1302</width>
+    <height>795</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QWidget" name="main_menu" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(30, 146, 255);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="bottomMargin">
+        <number>11</number>
+       </property>
+       <item>
+        <widget class="QMdiArea" name="mdiArea"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1302</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuManagement">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Management</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="itm_Employees"/>
+    <addaction name="itm_Users"/>
+    <addaction name="itm_Position"/>
+    <addaction name="itm_Permission"/>
+    <addaction name="itm_Department"/>
+    <addaction name="itm_Company"/>
+    <addaction name="separator"/>
+    <addaction name="itm_Device"/>
+    <addaction name="itm_Suppliers"/>
+    <addaction name="itm_Brand"/>
+    <addaction name="itm_Categories"/>
+    <addaction name="itm_Device_Location"/>
+    <addaction name="itm_Device_Status"/>
+    <addaction name="itm_Device_Management"/>
+   </widget>
+   <widget class="QMenu" name="menuSetting">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+    <addaction name="itm_Logout"/>
+    <addaction name="itm_ExitFullScreen"/>
+   </widget>
+   <widget class="QMenu" name="menuReport">
+    <property name="title">
+     <string>Report</string>
+    </property>
+    <addaction name="itm_Report_Device"/>
+    <addaction name="itm_history"/>
+   </widget>
+   <addaction name="menuManagement"/>
+   <addaction name="menuReport"/>
+   <addaction name="menuSetting"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="itm_Employees">
+   <property name="text">
+    <string>Employees Info</string>
+   </property>
+  </action>
+  <action name="itm_Users">
+   <property name="text">
+    <string>Users Info</string>
+   </property>
+  </action>
+  <action name="itm_Position">
+   <property name="text">
+    <string>Positions Info</string>
+   </property>
+  </action>
+  <action name="itm_Roles">
+   <property name="text">
+    <string>Manage Roles</string>
+   </property>
+  </action>
+  <action name="itm_Permission">
+   <property name="text">
+    <string>Manage Permissions</string>
+   </property>
+  </action>
+  <action name="itm_Department">
+   <property name="text">
+    <string>Department Info</string>
+   </property>
+  </action>
+  <action name="itm_Company">
+   <property name="text">
+    <string>Companies Info</string>
+   </property>
+  </action>
+  <action name="itm_Device">
+   <property name="text">
+    <string>Devices Info</string>
+   </property>
+  </action>
+  <action name="itm_Suppliers">
+   <property name="text">
+    <string>Suppliers Info</string>
+   </property>
+  </action>
+  <action name="itm_Brand">
+   <property name="text">
+    <string>Brand Info</string>
+   </property>
+  </action>
+  <action name="itm_Categories">
+   <property name="text">
+    <string>Device Categories </string>
+   </property>
+  </action>
+  <action name="itm_Device_Location">
+   <property name="text">
+    <string>Device Location </string>
+   </property>
+  </action>
+  <action name="itm_Device_Status">
+   <property name="text">
+    <string>Device Status </string>
+   </property>
+  </action>
+  <action name="itm_Logout">
+   <property name="text">
+    <string>Logout</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="itm_ExitFullScreen">
+   <property name="text">
+    <string>exit FullScreen</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="itm_Device_Management">
+   <property name="text">
+    <string>Device Management</string>
+   </property>
+  </action>
+  <action name="itm_Report_Device">
+   <property name="text">
+    <string>Device Report</string>
+   </property>
+  </action>
+  <action name="itm_history">
+   <property name="text">
+    <string>History</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
