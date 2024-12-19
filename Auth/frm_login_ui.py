@@ -42,3 +42,5 @@ class Ui_FormLogin(object):
         self.btn_register.setText(_translate("FormLogin", "Register"))
         self.label.setText(_translate("FormLogin", "Username"))
         self.label_2.setText(_translate("FormLogin", "Password"))
+        
+
